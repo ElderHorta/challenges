@@ -26,7 +26,9 @@ prós e contras (totalmente gerenciado ou não, maior disponibilidade ou não).
 **ARMAZENAMENTO**
 CloudSQL caso se tratasse de dados que dificilmente passariam de 30TB a médio prazo (limite do CLoudSQL) e caso não fosse necessário 
 replicação global desses dados para atender usuários. Por outro lado, caso os dados pudessem passar de 30TB em um futuro de médio prazo 
-ou ainda fosse necessário um banco globalmente distribuído eu utilizaria o Cloud Spanner já que o mesmo poderia atender esses requisitos. Uma outra possibilidade ainda seria o Bigquery, que permitiria consultas mais rápidas do que CloudSQL, um ponto de atenção para essa solução seria a cobrança por query rodada, caso uma query seja muito “pesada” poderia aumentar consideravelmente o custo.
+ou ainda fosse necessário um banco globalmente distribuído eu utilizaria o Cloud Spanner já que o mesmo poderia atender esses requisitos. 
+Uma outra possibilidade ainda seria o Bigquery, que permitiria consultas mais rápidas do que CloudSQL, um ponto de atenção para essa 
+solução seria a cobrança por query rodada, caso uma query seja muito “pesada” poderia aumentar consideravelmente o custo.
 
 **NECESSIDADE DE CAMADA RAW/WORKED**
 Em alguns casos opta-se por salvar uma cópia RAW (dados sem tratamento) dos dados em um arquivo em um sistema de armazenamento e 
