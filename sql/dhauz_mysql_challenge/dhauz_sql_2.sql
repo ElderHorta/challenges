@@ -2,7 +2,7 @@
 -- 1-Considerando que a carteira origem é responsável por pagar as taxas de envio, qual carteira
 -- seria responsável pelo maior pagamento de taxas em janeiro de 2021?
 -- R: Carteira A-99.
--- Obs: estamos desconsiderando valores entre parênteses que devems er avalaidos com a área de negócios
+-- Obs: estamos desconsiderando valores entre parênteses que devem ser avalaidos com a área de negócios
 WITH ranked_transactions AS 
 (
   SELECT *, ROW_NUMBER() OVER (PARTITION BY IdTransaction ORDER BY ImportDate DESC) AS rn
