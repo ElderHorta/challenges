@@ -39,9 +39,6 @@ N is an integer within the range [2..100,000];
 each element of array A is an integer within the range [−1,000..1,000].
 '''
 
-import os
-os.system('cls')
-
 def solution_1(A):
     lenght = len(A)
     iteration = lenght

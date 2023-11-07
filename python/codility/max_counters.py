@@ -4,8 +4,6 @@ and a is a non-empty integer list that contain numbers > 0.
 Example: n = 3, a = [1,2,1,4,3,2,4,1]
 You should create a new list with size n and only 0 values, new_list = [0,0,0,0,0]
 '''
-import os
-os.system('cls')
 
 def solution(n, a):
     list_size = n

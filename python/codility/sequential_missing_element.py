@@ -2,9 +2,6 @@
 For example, in liast = [1,2,3,4,5,7,8] the missing element is 6. 
 Consider that each list have maximum one missing element.
 '''
-import os
-
-os.system('cls')
 
 def solution(A):
 

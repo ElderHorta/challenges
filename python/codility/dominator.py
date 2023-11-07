@@ -27,9 +27,6 @@ N is an integer within the range [0..100,000];
 each element of array A is an integer within the range [−2, 147, 483, 648.. 2, 147, 483, 647].
 '''
 
-import os
-os.system('cls')
-
 def solution(A):
     mid_lenght = len(A) / 2
     sorted_list = sorted(A)

@@ -2,8 +2,6 @@
 For example, in list = [3,1,2,4,7,8,5] the missing element is 6. 
 Consider that each list have maximum one missing element.
 '''
-import os
-os.system('cls')
 
 def solution(A):
 
