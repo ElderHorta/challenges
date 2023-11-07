@@ -24,9 +24,6 @@ Write an efficient algorithm for the following assumptions:
 N is an integer within the range [1..1,000,000,000].
 '''
 
-import os
-os.system('cls')
-
 def solution(N):
     perimeter = 0
     min_perimenter = float('inf')

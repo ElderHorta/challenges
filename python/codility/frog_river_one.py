@@ -2,9 +2,6 @@
 find the minimum index where all the possible numbers (1 to 5) has already previously appeared
 example of list = [3,2,1,3,1,4,2,3,5,4,4,1,2], in this case the index searched is 8.
 '''
-import os
-os.system('cls')
-
 def solution(A):
     list = A
     counter = 0

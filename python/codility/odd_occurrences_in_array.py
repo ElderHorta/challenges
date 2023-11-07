@@ -30,12 +30,6 @@ each element of array A is an integer within the range [1..1,000,000,000];
 all but one of the values in A occur an even number of times.
 '''
 
-import os
-os.system('cls')
-
-# you can write to stdout for debugging purposes, e.g.
-# print("this is a debug message")
-
 def solution(A):
     A = [A]
     odd_list = []

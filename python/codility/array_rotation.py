@@ -36,9 +36,6 @@ N and K are integers within the range [0..100];
 each element of array A is an integer within the range [−1,000..1,000].
 '''
 
-import os
-os.system('cls')
-
 def solution(A, K):
     print('original A is:', A)
     lenght = len(A)
