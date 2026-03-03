@@ -37,7 +37,7 @@ Os desafios estão nas células 11 a 14:
 | 11 | Faturamento bruto mensal — últimos 12 meses |
 | 12 | Top 10 sellers por crescimento de GMV (QoQ) |
 | 13 | Pedidos com desconto abusivo (> 40% do valor bruto) |
-| 14 | Produtos com alto volume mas nunca o item de maior valor unitário |
+| 15 / 16 | Produtos com alto volume mas nunca o item de maior valor unitário |
 
 Para exploração e quality check dos dados, abra `modelo_exploracao_dados.ipynb` e execute todas as células.
 
